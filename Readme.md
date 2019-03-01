@@ -1,6 +1,16 @@
+# Object Detection
+
+This project reads an input video, then uses single shot detection (ssd)
+and visual object class data (VOCdevkit) to detects objects in each frame.
+A result video will be produced with objects being labeled.
+
 # Set up:
 
-Navigate to folder of your project:
+This project refers to VOCdevkit and ssd pytorch, thus it needs four subfolders:
+data, layers, utils and weights. The following is a guide to set up and
+retrieve data for these subfolders.
+
+Navigate to the project folder:
 
 ### Download torch file for single shot detection:
 	
@@ -10,7 +20,9 @@ Navigate to folder of your project:
 
 ### Download layers and utils of ssd pytorch:
 
-```
+```	
+	mkdir ./layers
+	mkdir ./utils
 	Navigate to https://github.com/amdegroot/ssd.pytorch
 	Download layers/* into your project folder: ./layers/
 	Download utils/* into your project folder: ./utils/
