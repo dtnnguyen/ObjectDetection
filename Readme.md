@@ -18,6 +18,14 @@ Navigate to the project folder:
 	wget https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
 ```
 
+### Download fc-reduced VGG-16 Pytorch base network weights:
+	
+```
+	mkdir ./weights
+	cd weights
+	wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
+```
+
 ### Download layers and utils of ssd pytorch:
 
 ```	
@@ -26,14 +34,6 @@ Navigate to the project folder:
 	Navigate to https://github.com/amdegroot/ssd.pytorch
 	Download layers/* into your project folder: ./layers/
 	Download utils/* into your project folder: ./utils/
-```
-
-### Download fc-reduced VGG-16 Pytorch base network weights:
-	
-```
-	mkdir ./weights
-	cd weights
-	wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 ```
 
 ### Download VOC2012 devkit and uncompress the file into VOCdevkit/:
