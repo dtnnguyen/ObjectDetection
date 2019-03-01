@@ -12,10 +12,6 @@ Created on Sat Aug 25 13:26:32 2018
 #to compute very efficiently gradient discent and backward propagation.
 #Dynamic graphs: allows very fast and efficient computation of the gradients
 
-#For this code to work, download torch from here 
-#and place in same directory with your code file:
-#https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
-
 import torch
 
 # Variable: contains both the tensor and gradient will be one element of the graph.
