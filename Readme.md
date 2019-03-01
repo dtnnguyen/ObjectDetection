@@ -4,6 +4,10 @@ This project reads an input video, then uses single shot detection (ssd)
 and visual object class data (VOCdevkit) to detects objects in each frame.
 A result video will be produced with objects being labeled.
 
+## Finished Video
+
+![Finished Video](https://github.com/dtnnguyen/ObjectDetection/blob/master/ObjectDetection.gif)
+
 # Set up:
 
 This project refers to VOCdevkit and ssd pytorch, thus it needs four subfolders:
